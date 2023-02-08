@@ -6,4 +6,4 @@ ls -la -Display current directory contents, including hidden files (starting wit
 ls -lan - Display current directory contents long format,user group numerically and .ignore files
 mkdir /tmp/my_first_directory -creats directory in /tmp/
 mv /tmp/betty /tmp/my_first_directory -to move fielfor one dir to anothe dir
-rm betty/tmp/my_first_directory - delete file betty from directory /tmp/
+rm /tmp/my_first_directory/betty - delete file betty from directory /tmp/
