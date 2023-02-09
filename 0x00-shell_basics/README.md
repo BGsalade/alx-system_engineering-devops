@@ -10,3 +10,4 @@ rm /tmp/my_first_directory/betty - delete file betty from directory /tmp/
 rm -r /tmp/my_first_directory  - deletes directory inside another directory
 cd - -changes working directory to previous directory
 ls -al . .. /boot -lists all file even .ignore files in current dir ,par dir and /boot in long format
+file /tmp/iamfile -  prints the type of the file named iamafile. The file iamafile will be in the /tmp directory
