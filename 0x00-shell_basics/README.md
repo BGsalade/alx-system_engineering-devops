@@ -7,3 +7,4 @@ ls -lan - Display current directory contents long format,user group numerically 
 mkdir /tmp/my_first_directory -creats directory in /tmp/
 mv /tmp/betty /tmp/my_first_directory -to move fielfor one dir to anothe dir
 rm /tmp/my_first_directory/betty - delete file betty from directory /tmp/
+rm -r /tmp/my_first_directory  - deletes directory inside another directory
