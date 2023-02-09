@@ -5,3 +5,4 @@ chown hello betty -Changes file ownership from (user)hello to (user)betty
 touch - creates empty new file
 chmod u+x [file] - adds adds executive permssion to the owner of the file
 chmod ug+x,o+r -adds permission to owner and the group ownerwith read permission to other users
+chmod ugo+x -adds execution permission to owner, the group and other users
