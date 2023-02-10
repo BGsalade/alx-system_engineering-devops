@@ -11,3 +11,4 @@ chmod 753 hello -sets mod of file  -rwxr-x-wx
 chmod --reference=olleh hello  -sets mode of file hello same as olle's
 chmod -R +X . -adds execute permission of all subdir of the current dir to the group owner and other users
 mkdir -m 751 my_dir -creats dir with permission 751 in the workinf directory
+chgrp school hello changes - the group ownership to sschool for the file hello
