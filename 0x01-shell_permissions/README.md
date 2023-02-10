@@ -14,3 +14,4 @@ mkdir -m 751 my_dir -creats dir with permission 751 in the workinf directory
 chgrp school hello changes - the group ownership to sschool for the file hello
 chown vincent:staff -changes owner to vincent and group to staff.
 chown -h vincent:staff _hello  -changes the owner and group owner of _hello to vincent and staff respectivly
+chomd --from=guillaum betty hello changes the owner from hello to betty if it's owned by guillaum
