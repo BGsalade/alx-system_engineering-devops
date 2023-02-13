@@ -2,3 +2,4 @@ echo Hello, World -A  script that prints “Hello, World”, followed by a new l
 echo ' "(Ôo)'\' -this is a script that displays a confused smiley
 cat /etc/passwd - Displays the content of file /etc/passwd
 cat etc/passwd /etc/hosts -display the content of both /etc/passwd and /etc/hosts
+tail /etc/passwd - displays the lst 10 lines of /etc/passwd
