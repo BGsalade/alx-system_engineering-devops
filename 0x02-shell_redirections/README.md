@@ -16,3 +16,4 @@ grep -i "root" /etc/passwd -This script displays the lines containing the patter
 grep -c -i "bin" etc/passwd - diplays the number of lines that contain the pattern "bin" in the file /etc/passwd.
 grep -i "root' -A 3 /etc/passwd -dislpays the lines conataining the pattern "root" and 3 lines after them in the file /etc/passwd
 grep -i -v "bin" /etc/passwd -this script displays the number of lines inside the file " /etc/passwd/ " that do not contain the pattern "bin"
+grep -i "Display all lines of the file /etc/ssh/sshd_config starting with a letteir
