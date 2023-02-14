@@ -18,5 +18,6 @@ grep -i "root' -A 3 /etc/passwd -dislpays the lines conataining the pattern "roo
 grep -i -v "bin" /etc/passwd -this script displays the number of lines inside the file " /etc/passwd/ " that do not contain the pattern "bin"
 grep -i "Display all lines of the file /etc/ssh/sshd_config starting with a letteir
 tr "A" "C" | tr "z" "e" - This script replaces all charecters A and C from input to z and e respectively.
-tr -d "cC" - This script removes all letters c and C from input.
-rev -This script reverses its input
+r -d "cC" - This script removes all letters c and C from input.
+rev -This script reverses its inpu 
+cut -d ':' -f 1,6 /etc/passwd | sort- This script displays all users and their home directories, sorted by users, based on the "/etc/passwd" file
