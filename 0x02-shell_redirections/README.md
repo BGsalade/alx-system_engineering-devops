@@ -12,4 +12,5 @@ find . -type f -name "*.js" -delete - this script deletes all the regular files 
 find . -type d -not -name '.' | wc -l -cript that counts the number of directories and sub-directories in the current directory
 ls -t1 | head -n 10 this script displays the 10 newest files in the current directory
 sort | uniq -u -takes a list of words as input and prints only the words tha appear exactly once
-grep -i "root" /etc/passwd -This script displays the lines containing the pattern "root" from /etc/passwd 
+grep -i "root" /etc/passwd -This script displays the lines containing the pattern "root" from /etc/passwd.
+grep -c -i "bin" etc/passwd - diplays the number of lines that contain the pattern "bin" in the file /etc/passwd.
