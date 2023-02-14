@@ -19,3 +19,4 @@ grep -i -v "bin" /etc/passwd -this script displays the number of lines inside th
 grep -i "Display all lines of the file /etc/ssh/sshd_config starting with a letteir
 tr "A" "C" | tr "z" "e" - This script replaces all charecters A and C from input to z and e respectively.
 tr -d "cC" - This script removes all letters c and C from input.
+rev -This script reverses its input
