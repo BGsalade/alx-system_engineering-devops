@@ -7,3 +7,4 @@
 6. Best=school -This script creats a new Local variable.
 7. export Best="school" -This script creats a new global variable
 8. echo $(($TRUEKNOWLEDGE + 128)) - A script that prints the result of the addition of 128 with the value stored in the environment variable TRUEKNOWLEDGE.
+9. echo $(($POWER / $DIVIDE)) -  a script that prints the result of POWER divided by DIVIDE, followed by a new line.
