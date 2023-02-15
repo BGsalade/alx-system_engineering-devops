@@ -4,4 +4,5 @@
 4. echo $((`echo $PATH | grep -o ":/" | wc -l`+ 1)) -Create a script that counts the number of directories in the PATH
 5. 4-global_variables - Creats a script that lists environment variables
 6. set - A script that lists all local variables and environment variables, and functions.
-7. Best=school -This script creats a new global variable.
+7. Best=school -This script creats a new Local variable.
+8. export Best="schoo"l -This script creats a new global variable
